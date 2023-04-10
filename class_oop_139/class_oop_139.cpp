@@ -27,19 +27,29 @@ public:
         cin >> namaM;
         cout << "Jumlah SKS : ";
         cin >> sks;
-}
+    }
     void tampil() {
         cout << "Kode Matakuliah : ";
         cout << "Nama Matakuliah : ";
         cout << "SKS : ";
-}
+    }
 };
 
 int main()
 {
     Mahasiswa mhs1;
     Matakuliah mk;
+
+    cout << "Masukan NIM : ";
+    cin >> mhs1.nim;
+    cout << "Masukan nama : ";
+    cin >> mhs1.nama;
+    mhs1.cetak();
+
+    mk.input();
+    mk.tampil();
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
