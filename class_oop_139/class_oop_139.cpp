@@ -19,10 +19,10 @@ private:
     string kode:
     string namaM;
     int sks;
-public :
+public:
     void input() {
-        
-    }
+
+}
 };
 
 int main()
