@@ -29,9 +29,9 @@ public:
         cin >> sks;
     }
     void tampil() {
-        cout << "Kode Matakuliah : ";
-        cout << "Nama Matakuliah : ";
-        cout << "SKS : ";
+        cout << "\nKode Matakuliah : ";
+        cout << "\nNama Matakuliah : ";
+        cout << "\nSKS : ";
     }
 };
 
