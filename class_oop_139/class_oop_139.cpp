@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-class mahasiswa {
+class Mahasiswa {
 public:
     string nim;
     string nama;
@@ -12,6 +12,10 @@ public: void cetak() {
     cout << "NIM = " << nim;
     cout << "\nNama = " << nama;
 }
+};
+
+class Matakuliah {
+
 };
 
 int main()
